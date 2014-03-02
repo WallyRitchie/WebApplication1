@@ -63,7 +63,7 @@ namespace WebApplication1.Account
                     SqlConnection.Close();
                 }
 
-                //ok see if we already have profile data for this user. 
+                //ok see if we already have profile data for this user
                 //var string conStr = System.Configuration.ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
                 //ds = new SqlDataSource(conStr);
                 Debug.Write("Data Read");
